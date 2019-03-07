@@ -16,6 +16,7 @@ class Program
         {
             string s = sr.ReadLine();
             string[] ss = s.Split(' ');
+
             int c = 1;
             for (int j = 0; j < i; j++)
                 if (ss[0] == info[j].name) c++;
